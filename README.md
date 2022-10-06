@@ -8,8 +8,8 @@ Phantom is an exciting professional Bootstrap resume template. It’s exclusivel
 | [![](screenshots/2.jpg)](https://demo.themefisher.com/phantom/) | [![](screenshots/4.jpg)](https://demo.themefisher.com/phantom/welcome.html) |  |
 |:---:|:---:|:---:|
 | **Home** | **Welcome**  | |
-| [![](screenshots/3.jpg)](https://demo.themefisher.com/phantom/about.html) | [![](screenshots/6.jpg)](https://demo.themefisher.com/phantom/services.html) | [![](screenshots/5.jpg)](https://demo.themefisher.com/phantom/resume.html) |
-| **About**  | **Services**  | **Resume** |
+| [![](screenshots/3.jpg)](https://demo.themefisher.com/phantom/about.html) | [![](screenshots/6.jpg)](https://demo.themefisher.com/phantom/services.html) | [![](screenshots/5.jpg)](https://demo.themefisher.com/phantom/apply.html) |
+| **About**  | **Services**  | **Apply** |
 | [![](screenshots/7.jpg)](https://demo.themefisher.com/phantom/works.html) | [![](screenshots/8.jpg)](https://demo.themefisher.com/phantom/testimonials.html) | [![](screenshots/9.jpg)](https://demo.themefisher.com/phantom/contact.html) |
 | **Works**  | **Testimonials**  | **Contact** |
 
@@ -22,7 +22,7 @@ Phantom is an exciting professional Bootstrap resume template. It’s exclusivel
 * **Welcome**
 * **About**
 * **Services**
-* **Resume**
+* **Apply**
 * **Works**
 * **Testimonials**
 * **Contact**
