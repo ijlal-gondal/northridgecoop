@@ -277,7 +277,7 @@ $slick-dot-size | pixels | 6px | Size of the navigation dots
 
 #### Browser support
 
-Slick works on IE8+ in addition to other modern browsers such as Chrome, Firefox, and Safari.
+Slick admin on IE8+ in addition to other modern browsers such as Chrome, Firefox, and Safari.
 
 #### Dependencies
 

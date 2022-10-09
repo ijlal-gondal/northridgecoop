@@ -571,15 +571,15 @@ label {
   border-bottom-color: #fa6862;
 }
 
-.works-item {
+.admin-item {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 30px;
   position: relative;
 }
-.works-item img {
+.admin-item img {
   width: 100%;
 }
-.works-item .overlay {
+.admin-item .overlay {
   background-color: rgba(30, 37, 48, 0.96);
   position: absolute;
   left: 0;
@@ -589,7 +589,7 @@ label {
   transition: all 0.3s ease 0s;
   transform: scale(0);
 }
-.works-item .overlay::before {
+.admin-item .overlay::before {
   border: 1px solid #fff;
   bottom: 15px;
   content: "";
@@ -598,7 +598,7 @@ label {
   right: 15px;
   top: 15px;
 }
-.works-item .works-inner {
+.admin-item .admin-inner {
   left: 50%;
   position: absolute;
   text-align: center;
@@ -607,20 +607,20 @@ label {
   transition: all 0.3s ease 0s;
   transform: translate3d(0px, 0px, 0px) scale(0);
 }
-.works-item h4 {
+.admin-item h4 {
   color: #fa6862;
   font-weight: 700;
   text-transform: uppercase;
 }
-.works-item p {
+.admin-item p {
   color: #fff;
   font-size: 12px;
   font-weight: 400;
 }
-.works-item:hover .overlay {
+.admin-item:hover .overlay {
   transform: scale(1);
 }
-.works-item:hover .works-inner {
+.admin-item:hover .admin-inner {
   transform: translate(-50%, -50%) scale(1);
 }
 
