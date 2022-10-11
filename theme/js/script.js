@@ -18,7 +18,7 @@
 	});
 
 	// testimonial-slider
-	$('.testimonials').slick({
+	$('.members').slick({
 		dots: true,
 		infinite: true,
 		speed: 300,

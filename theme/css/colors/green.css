@@ -35,13 +35,13 @@
 .primary,
 .link:hover,
 .filter .active,
-.works-item h4,
+.admin-item h4,
 .msg-success {
   color: #86A438;
 }
 
 /* border color */
-.testimonials .owl-dot.active {
+.members .owl-dot.active {
   border-color: #86A438;
 }
 

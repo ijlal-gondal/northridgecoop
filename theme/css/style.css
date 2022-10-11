@@ -40,6 +40,7 @@ h6 {
 
 p {
   margin-bottom: 20px;
+  color: rgb(254, 254, 254); 
 }
 p:last-child {
   margin-bottom: 0;
@@ -571,15 +572,15 @@ label {
   border-bottom-color: #fa6862;
 }
 
-.works-item {
+.admin-item {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 30px;
   position: relative;
 }
-.works-item img {
+.admin-item img {
   width: 100%;
 }
-.works-item .overlay {
+.admin-item .overlay {
   background-color: rgba(30, 37, 48, 0.96);
   position: absolute;
   left: 0;
@@ -589,7 +590,7 @@ label {
   transition: all 0.3s ease 0s;
   transform: scale(0);
 }
-.works-item .overlay::before {
+.admin-item .overlay::before {
   border: 1px solid #fff;
   bottom: 15px;
   content: "";
@@ -598,7 +599,7 @@ label {
   right: 15px;
   top: 15px;
 }
-.works-item .works-inner {
+.admin-item .admin-inner {
   left: 50%;
   position: absolute;
   text-align: center;
@@ -607,20 +608,20 @@ label {
   transition: all 0.3s ease 0s;
   transform: translate3d(0px, 0px, 0px) scale(0);
 }
-.works-item h4 {
+.admin-item h4 {
   color: #fa6862;
   font-weight: 700;
   text-transform: uppercase;
 }
-.works-item p {
+.admin-item p {
   color: #fff;
   font-size: 12px;
   font-weight: 400;
 }
-.works-item:hover .overlay {
+.admin-item:hover .overlay {
   transform: scale(1);
 }
-.works-item:hover .works-inner {
+.admin-item:hover .admin-inner {
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -767,24 +768,24 @@ label {
   height: 72px;
 }
 
-.testimonials .item {
+.members .item {
   padding-top: 33px;
 }
-.testimonials .thumb {
+.members .thumb {
   float: left;
   margin-top: -20px;
 }
-.testimonials .thumb img {
+.members .thumb img {
   width: auto;
 }
 @media only screen and (max-width: 991px) {
-  .testimonials .thumb {
+  .members .thumb {
     float: none;
     margin-top: 0;
     margin: auto;
   }
 }
-.testimonials .text {
+.members .text {
   border: 1px solid #cecece;
   font-size: 14px;
   font-style: italic;
@@ -793,55 +794,55 @@ label {
   padding: 27px 30px 29px 142px;
 }
 @media only screen and (max-width: 991px) {
-  .testimonials .text {
+  .members .text {
     padding: 29px 30px 29px 30px;
     margin-bottom: 20px;
     text-align: center;
   }
 }
-.testimonials figcaption {
+.members figcaption {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   padding-top: 15px;
   text-align: center;
 }
-.testimonials h4 {
+.members h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
-.testimonials span {
+.members span {
   font-size: 12px;
 }
-.testimonials .slick-slide {
+.members .slick-slide {
   margin: 0 15px;
 }
-.testimonials .slick-slide:focus {
+.members .slick-slide:focus {
   outline: 0;
 }
-.testimonials .slick-slide:nth-child(2n) .thumb {
+.members .slick-slide:nth-child(2n) .thumb {
   float: right;
 }
 @media only screen and (max-width: 991px) {
-  .testimonials .slick-slide:nth-child(2n) .thumb {
+  .members .slick-slide:nth-child(2n) .thumb {
     float: none;
   }
 }
-.testimonials .slick-slide:nth-child(2n) .text {
+.members .slick-slide:nth-child(2n) .text {
   margin-left: 0;
   margin-right: 50px;
   padding: 27px 142px 29px 30px;
 }
 @media only screen and (max-width: 991px) {
-  .testimonials .slick-slide:nth-child(2n) .text {
+  .members .slick-slide:nth-child(2n) .text {
     padding: 29px 30px 29px 30px;
     margin-right: 0;
   }
 }
-.testimonials .slick-dots {
+.members .slick-dots {
   text-align: center;
 }
-.testimonials .slick-dots button {
+.members .slick-dots button {
   border: 2px solid #1e2530;
   border-radius: 15px;
   display: inline-block;
@@ -850,10 +851,10 @@ label {
   width: 11px;
   transition: all 0.3s ease 0s;
 }
-.testimonials .slick-dots button:before {
+.members .slick-dots button:before {
   display: none;
 }
-.testimonials .slick-dots .slick-active button {
+.members .slick-dots .slick-active button {
   border-color: #fa6862;
 }
 
@@ -1272,10 +1273,10 @@ label {
   .service-hex:nth-child(4), .service-hex:nth-child(5) {
     transform: translate(50%, -15%);
   }
-  .testimonials .item {
+  .members .item {
     padding-top: 45px;
   }
-  .testimonials .thumb {
+  .members .thumb {
     margin-top: -45px;
   }
   .history-item .history-text {
@@ -1433,7 +1434,7 @@ label {
 .dark .service-hex:hover .st0 {
   fill: #fff;
 }
-.dark .testimonials .text,
+.dark .members .text,
 .dark .btn-border {
   border-color: #1e2530;
 }

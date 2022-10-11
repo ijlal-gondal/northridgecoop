@@ -192,7 +192,7 @@
   }
 }
 
-// Works
+// admin
 
 .filter {
   margin-bottom: 30px;
@@ -205,7 +205,7 @@
   }
 }
 
-.works-item {
+.admin-item {
   font-family: $open-sans;
   margin-bottom: 30px;
   position: relative;
@@ -234,7 +234,7 @@
     }
   }
 
-  .works-inner {
+  .admin-inner {
     left: 50%;
     position: absolute;
     text-align: center;
@@ -260,7 +260,7 @@
     .overlay {
       @include transform(scale(1));
     }
-    .works-inner {
+    .admin-inner {
       @include transform(translate(-50%, -50%) scale(1));
     }
   }
@@ -414,10 +414,10 @@
   }
 }
 
-// testimonials
+// members
 //--------------------------------------
 
-.testimonials {
+.members {
   .item {
     padding-top: 33px;
   }
