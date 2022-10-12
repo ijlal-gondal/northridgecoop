@@ -476,13 +476,14 @@ label {
 /*------------------------------------------------
     Welcome Page
 -------------------------------------------------*/
-.author-image-large {
+.welcome-image-large {
   position: absolute;
   right: 0;
   top: 0;
 }
-.author-image-large img {
+.welcome-image-large img {
   height: calc(100vh - 4px);
+  width: 2000px;
 }
 
 .welcome-text {
