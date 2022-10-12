@@ -11,7 +11,9 @@
         @include calc(height, "100vh - 4px");
     }
 }
-
+.welcome-text{
+color: white;
+}
 // .hexagon-item {
 // 	a {
 // 		path {

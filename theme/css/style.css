@@ -40,7 +40,6 @@ h6 {
 
 p {
   margin-bottom: 20px;
-  color: rgb(254, 254, 254); 
 }
 p:last-child {
   margin-bottom: 0;
@@ -484,6 +483,10 @@ label {
 }
 .author-image-large img {
   height: calc(100vh - 4px);
+}
+
+.welcome-text {
+  color: white;
 }
 
 /*------------------------------------------------
