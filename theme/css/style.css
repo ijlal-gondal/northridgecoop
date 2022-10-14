@@ -521,6 +521,10 @@ label {
   font-family: "Open Sans", sans-serif;
 }
 
+.about-text {
+  color: black;
+}
+
 .progress {
   background-color: #1e2530;
   border-radius: 2px;
