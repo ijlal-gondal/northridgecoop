@@ -764,16 +764,16 @@ label {
   z-index: 2;
 }
 .service-hex:hover svg {
-  transform: scale(1.5);
+  transform: scale(2);
 }
 .service-hex:hover .st1 {
   fill: #fa6862;
 }
 .service-hex:hover .content {
-  width: 135%;
+  width: 150%;
 }
 .service-hex:hover p {
-  height: 72px;
+  height: 150px;
 }
 
 .members .item {

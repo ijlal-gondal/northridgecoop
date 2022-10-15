@@ -400,16 +400,16 @@
   &:hover {
     z-index: 2;
     svg {
-      @include transform(scale(1.5));
+      @include transform(scale(2));
     }
     .st1 {
       fill: $primary-color;
     }
     .content {
-      width: 135%;
+      width: 150%;
     }
     p {
-      height: 72px;
+      height: 150px;
     }
   }
 }
