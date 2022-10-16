@@ -15,10 +15,7 @@ Pexels – https://www.pexels.com/
 
 Some third-party plugins that we used to build this template. Please check their license.
 
-* **Bootstrap v3.3**: <https://getbootstrap.com/docs/3.3/>
-* **Jquery**: <https://jquery.com/download/>
 * **Google Fonts**: <http://fonts.google.com/>
-* **Isotope**: <https://isotope.metafizzy.co/>
 * **Slick**: <https://kenwheeler.github.io/slick/>
 * **Nicescroll**: <http://nicescroll.areaaperta.com/>
 * **Animate CSS**: <https://animate.style/>
