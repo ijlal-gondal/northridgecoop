@@ -1,19 +1,9 @@
-# Phantom By Themefisher
+# Northridge Cooperative Housing 
 
-Phantom is an exciting professional Bootstrap resume template. It’s exclusively crafted to convince employers impressively. This template is best for showcasing your professional, educational, and those details that keep you a step ahead in the competition.
 
 <!-- demo -->
 ## Example Site
 
-| [![](screenshots/2.jpg)](https://demo.themefisher.com/phantom/) | [![](screenshots/4.jpg)](https://demo.themefisher.com/phantom/welcome.html) |  |
-|:---:|:---:|:---:|
-| **Home** | **Welcome**  | |
-| [![](screenshots/3.jpg)](https://demo.themefisher.com/phantom/about.html) | [![](screenshots/6.jpg)](https://demo.themefisher.com/phantom/services.html) | [![](screenshots/5.jpg)](https://demo.themefisher.com/phantom/apply.html) |
-| **About**  | **Services**  | **Apply** |
-| [![](screenshots/7.jpg)](https://demo.themefisher.com/phantom/admin.html) | [![](screenshots/8.jpg)](https://demo.themefisher.com/phantom/members.html) | [![](screenshots/9.jpg)](https://demo.themefisher.com/phantom/contact.html) |
-| **Admin**  | **Members**  | **Contact** |
-
-👉🏻[View Live Preview](https://demo.themefisher.com/phantom/)
 
 <!-- resources -->
 ## Pages
@@ -30,7 +20,7 @@ Phantom is an exciting professional Bootstrap resume template. It’s exclusivel
 <!-- download -->
 ## Download And installation
 
-Download this template from [Github](https://github.com/themefisher/phantom/archive/main.zip)
+Download this template from [Github](https://github.com/ijlal-gondal/northridgecoop.git)
 
 <!-- installation -->
 ### Basic Usages
@@ -80,27 +70,6 @@ npm run build
 
 Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
 
-👉🏻 [visit documentation](https://docs.themefisher.com/phantom/)
-
-<!-- reporting issue -->
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the phantom Template. Please Search [existing issues](https://github.com/themefisher/phantom/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/phantom/issues).
-
-<!-- support -->
-## Technical Support or Questions (Paid)
-
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
-
-<!-- licence -->
-## License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/phantom/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
 <!-- resources -->
 ## Resources

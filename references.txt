@@ -1,0 +1,21 @@
+https://www.w3docs.com/tools/editor/5928
+Phantom By Themefisher: (https://github.com/themefisher/phantom/archive/main.zip)
+List of third party plugins used in the template
+
+Bootstrap 3 –http://getbootstrap.com/docs/3.3/
+jQuery – http://jquery.com/
+Owl Carousel – http://www.landmarkmlp.com/js-plugin/owl.carousel/
+Isotope – https://isotope.metafizzy.co/
+All the image are used for demonstration purpose. You can’t use those as any personal or commercial product.
+
+You can find free stock Images on some websites from following links
+
+Unsplash – https://unsplash.com/
+Pexels – https://www.pexels.com/
+
+Some third-party plugins that we used to build this template. Please check their license.
+
+* **Google Fonts**: <http://fonts.google.com/>
+* **Slick**: <https://kenwheeler.github.io/slick/>
+* **Nicescroll**: <http://nicescroll.areaaperta.com/>
+* **Animate CSS**: <https://animate.style/>
