@@ -83,3 +83,4 @@ Some third-party plugins that we used to build this template. Please check their
 * **Slick**: <https://kenwheeler.github.io/slick/>
 * **Nicescroll**: <http://nicescroll.areaaperta.com/>
 * **Animate CSS**: <https://animate.style/>
+* **Phantom by Thermofisher**: <https://github.com/themefisher/phantom/archive/main.zip)>
