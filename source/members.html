@@ -22,8 +22,8 @@
           <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
             <div class="page-title text-center">
               <h2><span class="primary">Members</span><span class="title-bg">Members</span></h2>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat.</p>
+              <p>This portal is for co-op members only to submit complaints to indoor, outdoor maintenance 
+                committe and also to bring to the attention of board.</p>
             </div>
           </div>
         </div> <!-- /.row -->
@@ -31,7 +31,7 @@
   <div class="testbox">
     <form id="apply-form" action="/">
       <div class="banner">
-        <h1>Application for Membership</h1>
+        <h1>Complaint Form</h1>
       </div>
       <div class="item">
         <p>Last Name</p>
@@ -46,77 +46,22 @@
         <input type="date" name="bdate" required/>
         <i class="fas fa-calendar-alt"></i>
       </div>
-      <h5>1. Principal Investigator:</h5>
       <div class="item">
         <p>Name and Credentials<span class="required">*</span></p>
         <input type="text" name="name" required/>
       </div>
       <div class="item">
-        <p>Mailing Address<span class="required">*</span></p>
+        <p>Unit number<span class="required">*</span></p>
         <input type="text" name="name" placeholder="Street address" required/>
-        <input type="text" name="name" placeholder="Street address line 2" required/>
-        <div class="city-item">
-          <input type="text" name="name" placeholder="City" required/>
-          <input type="text" name="name" placeholder="Region" required/>
-          <input type="text" name="name" placeholder="Postal / Zip code" required/>
-          <select required>
-            <option value="">Country</option>
-            <option value="1">Russia</option>
-            <option value="2">Germany</option>
-            <option value="3">France</option>
-            <option value="4">Armenia</option>
-            <option value="5">USA</option>
-          </select>
-        </div>
       </div>
       <div class="item">
         <p>Phone<span class="required">*</span></p>
         <input type="text" name="name" required/>
       </div>
       <div class="item">
-        <p>Fax</p>
-        <input type="text" name="name" />
-      </div>
-      <div class="item">
         <p>Email<span class="required">*</span></p>
         <input type="text" name="name" required/>
       </div>
-      <h5>2. Co-Investigator:</h5>
-      <div class="item">
-        <p>Name and Credentials<span class="required">*</span></p>
-        <input type="text" name="name" required/>
-      </div>
-      <div class="item">
-        <p>Mailing Address<span class="required">*</span></p>
-        <input type="text" name="name" placeholder="Street address" required/>
-        <input type="text" name="name" placeholder="Street address line 2" required/>
-        <div class="city-item">
-          <input type="text" name="name" placeholder="City" required/>
-          <input type="text" name="name" placeholder="Region" required/>
-          <input type="text" name="name" placeholder="Postal / Zip code" required/>
-          <select required>
-            <option value="">Country</option>
-            <option value="1">Russia</option>
-            <option value="2">Germany</option>
-            <option value="3">France</option>
-            <option value="4">Armenia</option>
-            <option value="5">USA</option>
-          </select>
-        </div>
-      </div>
-      <div class="item">
-        <p>Phone<span class="required">*</span></p>
-        <input type="text" name="name" required/>
-      </div>
-      <div class="item">
-        <p>Fax</p>
-        <input type="text" name="name" />
-      </div>
-      <div class="item">
-        <p>Email<span class="required">*</span></p>
-        <input type="text" name="name" required/>
-      </div>
-      <h5>3. Institute Member</h5>
       <div class="question">
         <p>Principle investigator:<span class="required">*</span></p>
         <div class="question-answer">
@@ -135,19 +80,8 @@
           <label for="radio_4" class="radio"><span>No</span></label>
         </div>
       </div>
-      <h5>4. Have you applied for or are you now receiving funding support for this research?</h5>
       <div class="question">
-        <p><span class="required">*</span></p>
-        <div class="question-answer">
-          <input type="radio" value="none" id="radio_5" name="research" required/>
-          <label for="radio_5" class="radio"><span>Yes</span></label>
-          <input type="radio" value="none" id="radio_6" name="research" required/>
-          <label for="radio_6" class="radio"><span>No</span></label>
-        </div>
-      </div>
-      <h5>5. IRB:</h5>
-      <div class="question">
-        <p>Have you applied for IRB review:</p>
+        <p>Have you tried to resolve the issue on your own:</p>
         <div class="question-answer">
           <input type="radio" value="none" id="radio_7" name="IRB"/>
           <label for="radio_7" class="radio"><span>Yes</span></label>
@@ -155,50 +89,37 @@
           <label for="radio_8" class="radio"><span>No</span></label>
         </div>
       </div>
-      <h5>6. Students only:</h5>
       <div class="item">
-        <p>Name of research advisor:</p>
+        <p>Name of co-member:</p>
         <input type="text" name="name" />
       </div>
       <div class="item">
-        <p>Include a letter of support from advisor in application packet.<span class="required">*</span></p>
+        <p>Please describe the issue in details.<span class="required">*</span></p>
         <textarea rows="3" required></textarea>
       </div>
       <div class="question">
-        <p>Research Application Checklist:<span class="required">*</span></p>
-        <small>Please include the following in your application.</small>
+        <p>Which committe should be infromed:<span class="required">*</span></p>
+        <small>Mutliple committes can be selected.</small>
         <div class="question-answer checkbox-item">
           <div>
             <input type="checkbox" value="none" id="check_1" name="checklist" required/>
-            <label for="check_1" class="check"><span>Proposal Cover Form</span></label>
+            <label for="check_1" class="check"><span>Outdoor</span></label>
           </div>
           <div>
             <input type="checkbox" value="none" id="check_2" name="checklist" required/>
-            <label for="check_2" class="check"><span>Abstract</span></label>
+            <label for="check_2" class="check"><span>Indoor</span></label>
           </div>
           <div>
             <input type="checkbox" value="none" id="check_3" name="checklist" required/>
-            <label for="check_3" class="check"><span>Narrative</span></label>
+            <label for="check_3" class="check"><span>Membership</span></label>
           </div>
           <div>
             <input type="checkbox" value="none" id="check_4" name="checklist" required/>
-            <label for="check_4" class="check"><span>Budget and Budget Justification</span></label>
+            <label for="check_4" class="check"><span>Finance</span></label>
           </div>
           <div>
             <input type="checkbox" value="none" id="check_5" name="checklist" required/>
-            <label for="check_5" class="check"><span>Timeframe</span></label>
-          </div>
-          <div>
-            <input type="checkbox" value="none" id="check_6" name="checklist" required/>
-            <label for="check_6" class="check"><span>References</span></label>
-          </div>
-          <div>
-            <input type="checkbox" value="none" id="check_7" name="checklist" required/>
-            <label for="check_7" class="check"><span>Appendices</span></label>
-          </div>
-          <div>
-            <input type="checkbox" value="none" id="check_8" name="checklist" required/>
-            <label for="check_8" class="check"><span>Bio Sketch</span></label>
+            <label for="check_5" class="check"><span>Emergency</span></label>
           </div>
           </div
         </div>
@@ -221,19 +142,9 @@
         </div>
     </form>
     </div> 
+
 </body>
-        
-      <div id="dropin-container">
-        
-      </div>
-      </div> <!-- /.container -->
-      
-
-      @@include('blocks/page-nav.htm',{"prev":"admin.html", "next":"contact.html"})
-      <!-- /.container -->
-
-    </div> <!-- /.pt-tablecell -->
-  </div> <!-- /.pt-table -->
+@@include('blocks/page-nav.htm',{"prev":"admin.html", "next":"contact.html"})      
 </main> <!-- /.site-wrapper -->
 
 @@include('footer.htm')
