@@ -1,6 +1,8 @@
-# Northridge Cooperative Housing 
+# Northridge Cooperative Housing  
 
-
+#### Video Demo:
+#### Description:
+TODO
 <!-- demo -->
 ## Example Site
 

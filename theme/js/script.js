@@ -11,7 +11,7 @@
 	});
 
 	// testimonial-slider
-	$('.members').slick({
+	$(".members").slick({
 		dots: true,
 		infinite: true,
 		speed: 300,
@@ -42,9 +42,8 @@
 		]
 	});
 	
-	animatedProgressBar();
-	windowHieght();
-	previewPannel();
+
+
 
 	function animatedProgressBar () {
 		$(".progress").each(function() {
@@ -56,7 +55,7 @@
 			$(this).find(".skill-lavel").text(skillValue);
 		});
 	}
-
+	animatedProgressBar();
 	function windowHieght(){
 		if ( $(window).height() <=768 ) {
 			$(".pt-table").addClass("desktop-768");
@@ -64,7 +63,7 @@
 			$(".pt-table").removeClass("desktop-768");
 		}
 	}
-
+	windowHieght();
 	/*----------------------------------------
 		Isotope Masonry
 	------------------------------------------*/
@@ -106,7 +105,7 @@
 			return false;
 		});
 		if ($(window).width() < 768 ) {            
-			//$(".preview-wrapper").removeClass("extend");
+			$(".preview-wrapper").removeClass("extend");
 		}
 		$(".color-options li").on("click", function(){			
 			$("#color-changer").attr({
@@ -116,6 +115,7 @@
 		});
 	}
 	
+	previewPannel();
 	$(window).on("load", function() {
 		isotopeMasonry();
 
