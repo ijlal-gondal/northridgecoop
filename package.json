@@ -26,6 +26,7 @@
     "gulp-util": "^1.0.0",
     "jshint": "^2.13.5",
     "jshint-stylish": "^2.2.1",
+    "mysql": "^2.18.1",
     "sass": "^1.55.0"
   }
 }
