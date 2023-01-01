@@ -1,29 +1,4 @@
-require('dotenv').config();
-const apiKey = process.env.API_KEY;
 
-document.getElementById('google-form').addEventListener('click', () => {
-    // Your code to create a form goes here
-    console.log("test");
-    const {google} = require('googleapis');
-    
-const forms = google.forms({
-  version: 'v1',
-  auth: apiKey
-});
-console.log(apiKey);
-console.log("test");
-forms.forms.create({
-    requestBody: {
-      title: 'My form'
-    }
-  }, (err, res) => {
-    if (err) throw err;
-  
-    console.log(res.data);
-  });
-  
-
-  });
 
 
 const express = require('express');

@@ -1,13 +1,20 @@
+
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'user',
-  password: 'password',
+  password: '',
   database: 'database'
 });
 
-connection.connect();
+connection.connect(function(err) {
+  if (err) {
+    return console.error('error: ' + err.message);
+  }
+
+  console.log('Connected to the MySQL server.');
+});
 
 
 connection.query('SELECT * FROM table', (error, results) => {
