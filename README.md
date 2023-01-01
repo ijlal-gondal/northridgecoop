@@ -2,7 +2,7 @@
 
 #### Video Demo:
 #### Description: This is a revamped website for housing co-operative. The site offers potential members the ability to learn more and apply for co-op. Current members 
-# are also welcome to lodge their complaints, learn about the services provided and access the resources on website. 
+#### are also welcome to lodge their complaints, learn about the services provided and access the resources on website. 
 
 
 <!-- resources -->
