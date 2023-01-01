@@ -9,4 +9,6 @@ package-lock.json
 yarn.lock
 netlify
 .env
+client_secret.json
+client_secret_431977981749-6pd1g1qjd0vvjv34mhu236dr7ul3q10q.apps.googleusercontent.com.json
 
