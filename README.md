@@ -1,10 +1,8 @@
 # Northridge Cooperative Housing  
 
 #### Video Demo:
-#### Description:
-TODO
-<!-- demo -->
-## Example Site
+#### Description: This is a revamped website for housing co-operative. The site offers potential members the ability to learn more and apply for co-op. Current members 
+# are also welcome to lodge their complaints, learn about the services provided and access the resources on website. 
 
 
 <!-- resources -->
@@ -22,7 +20,7 @@ TODO
 <!-- download -->
 ## Download And installation
 
-Download this template from [Github](https://github.com/ijlal-gondal/northridgecoop.git)
+Download the code from [Github](https://github.com/ijlal-gondal/northridgecoop.git)
 
 <!-- installation -->
 ### Basic Usages
